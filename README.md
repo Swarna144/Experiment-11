@@ -25,7 +25,145 @@ The mechanism that depends on the separation of the interface and implementation
 Polymorphism:
 The mechanism which allows an object to be represented in various forms.
 
+CODE:-
+
+11
 ```
-<img width="294" alt="image" src="https://github.com/user-attachments/assets/0ba01ffa-4688-4034-8479-0089c09bf2e6">
+# include<iostream>
+using namespace std;
+class cuboid
+{
+    public:
+    double h = 2.0;
+    double b = 3.0;
+    double l = 4.0;
+};
+int main()
+{
+  cuboid c1;
+  double vol = c1.h * c1.b * c1.l;
+  cout<<"Volume "<<vol<<endl;
+}
+
+
+11a
+```
+# include<iostream>
+using namespace std;
+class cuboid
+{
+    public:
+    double h = 5.0,b = 3.0,l = 8.0;
+    double volume()
+    {
+        double vol = h * b * l;
+        cout<<"Volume "<<vol<<endl;
+    }
+
+};
+int main()
+{
+    cuboid c1;
+    c1.volume();
+  
+}
+
+11b
+```
+# include<iostream>
+using namespace std;
+class cuboid
+{
+    private:
+    double h = 20.0,b = 13.0,l = 17.0;
+    public:
+    double volume()
+    {
+        double vol;
+        vol = h * b * l;
+        cout<<"Volume "<<vol<<endl;
+    }
+
+};
+int main()
+{
+    cuboid c1;
+    c1.volume();
+  
+}
+
+
+11c
+```
+# include<iostream>
+using namespace std;
+class cuboid
+{
+    private:
+    double h = 7.0,b = 8.0,l = 9.0;
+    public:
+    double volume()
+    {
+        double vol;
+        vol = h * b * l;
+        return vol;
+    }
+
+    void disp(double vol)
+    {
+        cout<<"Volume "<<vol<<endl;
+
+    }
+
+};
+int main()
+{
+    cuboid c1;
+    double v = c1.volume();
+    c1.disp(v);
+  
+}
+
+11d
+```
+# include<iostream>
+using namespace std;
+class cuboid
+{
+    public:
+    double h,b,l;
+    void input()
+    {
+        cout<<"Enter the length: ";
+        cin>>l;
+        cout<<"Enter the breadth: ";
+        cin>>b;
+        cout<<"Enter the height: ";
+        cin>>h;
+    }
+    double volume()
+    {
+        double vol;
+        vol = h * b * l;
+        return vol;
+    }
+
+    void disp(double vol)
+    {
+        cout<<"Volume "<<vol<<endl;
+
+    }
+
+};
+int main()
+{
+    cuboid c1;
+    c1.input();
+    double v = c1.volume();
+    c1.disp(v);
+  
+}
+    
+    
 
 
