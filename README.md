@@ -26,6 +26,6 @@ Polymorphism:
 The mechanism which allows an object to be represented in various forms.
 
 ```
-<img width="294" alt="image" src="https://github.com/user-attachments/assets/4bfd028d-7ff0-4a21-8c07-061fedf38b62">
+<img width="294" alt="image" src="https://github.com/user-attachments/assets/0ba01ffa-4688-4034-8479-0089c09bf2e6">
 
 
