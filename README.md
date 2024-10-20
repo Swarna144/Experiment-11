@@ -25,6 +25,9 @@ The mechanism that depends on the separation of the interface and implementation
 Polymorphism:
 The mechanism which allows an object to be represented in various forms.
 
+![Screenshot 2024-10-21 021142](https://github.com/user-attachments/assets/d589fcc7-9d0a-4487-981d-a28b60102299)
+
+
 CODE:-
 
 11
