@@ -174,19 +174,24 @@ int main()
 OUTPUT:-
 
 11
+
 ![Ex 11 JPG](https://github.com/user-attachments/assets/da6cd0a4-b9a1-4875-8fd4-8438fdd194ec)
 
 11a
+
 ![EX 11a  JPG](https://github.com/user-attachments/assets/845d4bfa-a188-4630-ae88-c0e8519ea1bc
 
 11b
+
 ![Ex 11b JPG](https://github.com/user-attachments/assets/e1e7f5f4-1729-43fc-8c80-582d873df247)
 
 
 11c
+
 ![EX 11c JPG](https://github.com/user-attachments/assets/7390b04a-1ff6-493b-936c-6db227c7b36e)
 
 11d
+
 ![EX 11d JPG](https://github.com/user-attachments/assets/5a0f670b-c4e5-4dd6-b395-66f09b5e2ed2)
 
 CONCLUSION:-
